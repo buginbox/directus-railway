@@ -4,7 +4,7 @@ This example deploys a self-hosted version of [Directus](https://directus.io).
 
 It uses a PostgreSQL database to store the data and S3 to store files.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/y5trbj?referralCode=8EB8ml)
+[![Deploy directus on Railway](https://railway.app/button.svg)](https://railway.app/template/y5trbj?referralCode=8EB8ml)
 
 ## Services deployed
 
