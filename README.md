@@ -24,6 +24,9 @@ It uses a PostgreSQL database to store the data and S3 to store files.
 - Click the Railway button 👆
 - Add the environment variables
   - If you do not add the S3 related environment variables, your images/files will not be persisted between deploys.
+  - Common variable values :
+    -  CONFIG_PATH : directus.config.js
+    -  STORAGE_S3_ENDPOINT : s3.amazonaws.com
 - After your app is deployed, visit the `/admin` endpoint to login using the initial admin user you entered during config.
 
 ## Credit
