@@ -32,3 +32,4 @@ It uses a PostgreSQL database to store the data and S3 to store files.
 ## Credit
 
 Original from https://github.com/freekrai/directus-railway
+
