@@ -6,6 +6,7 @@ It uses a PostgreSQL database to store the data and local volume to store files 
 
 Templates can be edited from : https://railway.app/account/templates
 
+Deploy on Railway with local storage - Refer to template named 'directus postgres local storage :
 [![Deploy on Railway with local storage - Refer to template named 'directus postgres local storage'](https://railway.app/button.svg)](https://railway.app/template/L8Xgg-)
 
 ## Services deployed
