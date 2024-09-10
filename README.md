@@ -2,9 +2,11 @@
 
 This example deploys a self-hosted version of [Directus](https://directus.io).
 
-It uses a PostgreSQL database to store the data and S3 to store files.
+It uses a PostgreSQL database to store the data and local volume to store files (optionally from S3 - commented in directus.config.js + use template with good variables for S3 settings).
 
-[![Deploy directus on Railway](https://railway.app/button.svg)](https://railway.app/template/y5trbj)
+Templates can be edited from : https://railway.app/account/templates
+
+[![Deploy on Railway with local storage - Refer to template named 'directus postgres local storage'](https://railway.app/button.svg)](https://railway.app/template/L8Xgg-)
 
 ## Services deployed
 
