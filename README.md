@@ -13,7 +13,7 @@ It uses a PostgreSQL database to store the data and S3 to store files.
 
 ## Requirement
 
-- S3 bucket for file storage (persistence between deploys)
+- Local volume for file storage or commented alternative to S3 bucket for file storage (persistence between deploys)
 
 ## How to use
 
