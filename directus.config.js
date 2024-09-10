@@ -21,12 +21,17 @@ module.exports = function (env) {
         DB_DATABASE: env.PGDATABASE,
         DB_USER: env.PGUSER,
         DB_PASSWORD: env.PGPASSWORD,
-        STORAGE_LOCATIONS: "s3",
-        STORAGE_S3_DRIVER: "s3",
-        STORAGE_S3_KEY: env.STORAGE_S3_KEY,
-        STORAGE_S3_SECRET: env.STORAGE_S3_SECRET,
-        STORAGE_S3_REGION: env.STORAGE_S3_REGION,
-        STORAGE_S3_BUCKET:  env.STORAGE_S3_BUCKET,
-        STORAGE_S3_ENDPOINT: env.STORAGE_S3_ENDPOINT
+        
+        STORAGE_LOCATIONS: "local",
+        STORAGE_LOCAL_ROOT: "/data/uploads",
+        STORAGE_LOCAL_DRIVER: "local"
+    
+        //STORAGE_LOCATIONS: "s3",
+        //STORAGE_S3_DRIVER: "s3",
+        //STORAGE_S3_KEY: env.STORAGE_S3_KEY,
+        //STORAGE_S3_SECRET: env.STORAGE_S3_SECRET,
+        //STORAGE_S3_REGION: env.STORAGE_S3_REGION,
+        //STORAGE_S3_BUCKET:  env.STORAGE_S3_BUCKET,
+        //STORAGE_S3_ENDPOINT: env.STORAGE_S3_ENDPOINT
     };
 };
